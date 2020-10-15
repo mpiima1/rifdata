@@ -2,6 +2,7 @@
 import paho.mqtt.client as mqtt
 import json
 import format
+import os
 
 def connectivity():
     response = os.system("ping -c 2 facebook.com")
